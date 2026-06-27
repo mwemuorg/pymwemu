@@ -1,11 +1,11 @@
 [package]
 name = "pymwemu"
 version = "0.11.6"
-edition.workspace = true
-description.workspace = true
+edition = "2024"
+description = "Python bindings for libmwemu: an x86 32/64bits and system internals emulator for securely emulating malware."
 homepage = "http://mwemu.github.io/#pymwemu"
-repository.workspace = true
-license.workspace = true
+repository = "https://github.com/mwemuorg/pymwemu"
+license = "GPL-3.0-only"
 readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -14,12 +14,12 @@ name = "_pymwemu"
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-pyo3.workspace = true
-env_logger.workspace = true
-libmwemu = { path = "../libmwemu", version = "0.25.0" }
-log.workspace = true
-iced-x86.workspace = true
-yaxpeax-arm.workspace = true
+pyo3 = "0.26.0"
+env_logger = "0.11.8"
+libmwemu = "0.25"
+log = "0.4.22"
+iced-x86 = "1.21.0"
+yaxpeax-arm = "0.4.0"
 pyo3-stub-gen = "0.22.3"
 
 [build-dependencies]

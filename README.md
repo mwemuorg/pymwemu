@@ -1,4 +1,6 @@
 # PYMWEMU
+[![Rust CI](https://github.com/mwemuorg/pymwemu/actions/workflows/ci.yaml/badge.svg)](https://github.com/mwemuorg/pymwemu/actions/workflows/ci.yaml)
+[![PyPI version](https://img.shields.io/pypi/v/pymwemu.svg)](https://pypi.org/project/pymwemu/)
 
 ## Examples
 

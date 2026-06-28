@@ -18,8 +18,6 @@ pyo3 = "0.26.0"
 env_logger = "0.11.8"
 libmwemu = "0.25"
 log = "0.4.22"
-iced-x86 = "1.21.0"
-yaxpeax-arm = "0.4.0"
 pyo3-stub-gen = "0.22.3"
 
 [build-dependencies]

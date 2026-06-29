@@ -4,7 +4,7 @@
 
 ## Examples
 
-https://github.com/sha0coder/mwemu/tree/main/crates/pymwemu/examples/scripts
+https://github.com/mwemuorg/mwemu/tree/main/crates/pymwemu/examples/scripts
 
 ## Documentation
 
@@ -28,7 +28,7 @@ sudo xcode-select --switch /Library/Developer/CommandLineTools
 
 ## Download maps
 download maps from releases or better from git:
-https://github.com/sha0coder/mwemu
+https://github.com/mwemuorg/mwemu
 
 
 
